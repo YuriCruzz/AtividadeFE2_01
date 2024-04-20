@@ -1,0 +1,38 @@
+.bloco{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.resultado{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button{
+    background-color: white;
+    border: 1px solid black;
+}
+
+button:hover{
+    background-color: rgb(207, 207, 207);
+    cursor: pointer;
+}
+
+input[type="number"]{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+input[type="number"]:hover{
+    background-color: whitesmoke;
+}
